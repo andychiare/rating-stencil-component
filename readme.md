@@ -31,7 +31,7 @@ The following are the attributes of `my-rating` element:
 
 You can also handle the `onRatingUpdated` [custom event](https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Creating_and_triggering_events), that is an event fired when the value of the component changes.
 
-See the `index.html` file for some examples of use of the component.
+See the [index.html](https://github.com/andychiare/rating-stencil-component/blob/master/src/index.html) file for some examples of use of the component.
 
 ## Exploring the project
 
