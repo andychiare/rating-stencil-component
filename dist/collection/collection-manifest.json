@@ -1,0 +1,48 @@
+{
+  "components": [
+    {
+      "tag": "my-rating",
+      "dependencies": [],
+      "componentClass": "MyRatingComponent",
+      "componentPath": "components/my-rating-component/my-rating-component.js",
+      "styles": {
+        "$": {
+          "stylePaths": [
+            "components/my-rating-component/my-rating-component.css"
+          ]
+        }
+      },
+      "props": [
+        {
+          "name": "maxValue",
+          "type": "Number",
+          "attr": "max-value"
+        },
+        {
+          "name": "value",
+          "type": "Number",
+          "mutable": true,
+          "attr": "value"
+        }
+      ],
+      "states": [
+        {
+          "name": "starList"
+        }
+      ],
+      "events": [
+        {
+          "event": "onRatingUpdated"
+        }
+      ],
+      "shadow": true
+    }
+  ],
+  "collections": [],
+  "compiler": {
+    "name": "@stencil/core",
+    "version": "0.7.26",
+    "typescriptVersion": "2.8.3"
+  },
+  "bundles": []
+}
