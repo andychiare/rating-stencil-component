@@ -2,7 +2,7 @@
 
 # A rating Web component
 
-This is an example project showing how to build a rating Web component by using [Stencil](https://stenciljs.com/), a Web component compiler created by the [Ionic Team](https://github.com/ionic-team).
+This is an example project showing how to build a rating Web component by using [Stencil](https://stenciljs.com/), a Web component compiler created by the [Ionic Team](https://github.com/ionic-team). The project is described in the article [Creating Web Components with Stencil](https://auth0.com/blog/creating-web-components-with-stencil/).
 
 The project defines a star rating component like the following:
 
